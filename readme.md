@@ -1,0 +1,2 @@
+*Tablero de Datos ("Dashboard")*
+Este proyecto consiste en construir un tablero de datos (dashboard) que consuma una API externa y muestre gráficas utilizando la librería Chart.js. El tablero de datos permitirá visualizar y comunicar información de manera efectiva a través de gráficas interactivas.
