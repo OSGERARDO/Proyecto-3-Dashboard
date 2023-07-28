@@ -4,24 +4,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tiempo en linea</title>
+  <title>Tiempo en linea </title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
 </head>
 
 <body>
-  <h1>Tiempo en linea</h1>
+  <h1 class="animate__animated animate__backInDown">Tiempo en linea <i class="fas fa-sun"></i>
+  </h1>
   <div class="contenedor">
-  
-  <form class="formulario" id="form"><input type="text" id="inputText"><button id="boton" type="submit">consultar</button></form>
- <div id="cardTemp"></div>
-  <div>
-    <canvas id="myChart"></canvas>
+
+    <form id="form"><input class="inputt" type="text" placeholder="  Ingrese aquí la ciudad" id="inputText"><button
+        class="button" id="boton" type="submit">Consultar</button> </form>
+    
+  <div class="main">
+
+     <div id="cardTemp"></div>
+    <div class="chartContainer">
+      <canvas id="myChart"></canvas>
+
+    </div>
+  </div>
   </div>
 
-</div>
 
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <script src="assets/js/app.js"></script>
+  <script type = "module" src="assets/js/app.js"></script>
 </body>
 
 </html>

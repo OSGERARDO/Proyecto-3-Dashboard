@@ -1,45 +1,148 @@
+* {
+
+  font-family: 'Montserrat', sans-serif;
 
 
+}
 
-html{
+html {
+  width: 100%;
   align-items: center;
   display: flex;
   justify-content: center;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: rgb(0, 0, 0);
-    background-image:linear-gradient(320deg, #eb92be, #ffef78, #63c9b4); 
+  color: rgb(252, 143, 0);
+  background: linear-gradient(45deg, #eb92be, #ffef78, #63c9b4);
+  background-size: 200% 200%;
+  animation: gradientAnimation 10s infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
   }
-  
-  .cardTemp{
-    align-items: center;
-    justify-content: center;
+
+  50% {
+    background-position: 100% 50%;
   }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
+.contenedor {
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  background-color: rgba(255, 255, 255, 0.5);
+  /* Fondo blanco transparente */
+  border-radius: 15px;
+  /* Bordes redondeados */
+  border: 20px solid transparent;
+  padding: 10px;
+  box-shadow: 5px 2px 25px rgba(0, 0, 0, 0.2);
+}
+
+
+
+h1 {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 40px;
+  ;
+  color: #ff8801fd;
+  text-align: center;
+  justify-content: center;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.137);
+  box-shadow: 5px 2px 25px rgba(0, 0, 0, 0.2);
+  border: 20px solid transparent;
+  width: 90%;
+  border-radius: 15px;
+}
+
+.button {
+  margin-left: 10px;
+  font-size: 1em;
+  padding: 12px;
+  border: 10px;
+  border-radius: 12px;
+  color: rgb(10, 10, 10);
+  background-color: rgba(253, 253, 253, 0.274);
+  transition: all 0.3s;
+  cursor: pointer;
+  outline: 0.1px solid #acacac;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.button:hover {
+  transform: scale(1.05);
+  background-color: rgb(250, 250, 250);
+  box-shadow: 5px 2px 25px rgba(0, 0, 0, 0.2);
+}
+
+.inputt {
+  padding: 15px;
+  border: 1px #9e9e9e;
+  border-radius: 10px;
+  /* Redondea las esquinas */
+  width: auto;
+  box-sizing: border-box;
+  /* El padding se incluirá dentro del ancho total */
+  background-color: #fffdfde5;
+  outline: none;
+}
 
 
 
 
 
-  
-  h1 {
-    text-align: center;
-    padding: 5%;
-  }
-  
-  canvas {
-    width: 100%;
-    height: 400px;
-  }
-  
-  .red {
-    color: red;
-  }
 
-  .Clouds {
-    size: inherit;
-    background-repeat: no-repeat;
-    align-items: center;
-    background-image: url(assets/images/nubes.jpg)
-  
-  }
+
+
+
+
+
+canvas {
+  width: 100%;
+}
+
+.red {
+  color: red;
+}
+
+.weatherCard {
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-repeat: no-repeat;
+  align-items: left;
+  background-image: url(assets/images/sol.png);
+  background-size:contain;
+}
+.Clouds {
+  background-image: url(https://res.cloudinary.com/dtsv1kdnx/image/upload/f_auto,q_auto/v1/samples/ngzoae7ubmt7yvaui2tb.webp);
+}
+
+.Rain{ background-image: url(assets/images/lluvia.png)
+
+}
+
+.main{
+  margin-top: 20px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.chartContainer{
+  width: 100%;
+}
+
+
+
+/* Media query para hacer el responsive */
+@media (max-width: 600px) {}
