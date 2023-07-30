@@ -1,4 +1,4 @@
-<span style="color:#00A2E8">DashBoard - Tiempo en Línea</span> 😎🌤️
+## <span style="color:#00A2E8">DashBoard - Tiempo en Línea</span> 😎🌤️
 
 ¡Bienvenido al proyecto DashBoard - Tiempo en Línea! En esta aplicación web, podrás consultar el tiempo de cualquier ciudad en tiempo real gracias a la conexión con una API meteorológica. Es sencillo de usar, simplemente accede a la web y escribe el nombre de la ciudad que deseas consultar para obtener los resultados del clima actual. Además, disfrutarás de un gráfico interactivo de Chart.js que muestra el pronóstico del tiempo para los próximos dos días.
 
