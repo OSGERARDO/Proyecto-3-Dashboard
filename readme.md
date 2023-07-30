@@ -2,12 +2,17 @@
 
 ¡Bienvenido al proyecto DashBoard - Tiempo en Línea! En esta aplicación web, podrás consultar el tiempo de cualquier ciudad en tiempo real gracias a la conexión con una API meteorológica. Es sencillo de usar, simplemente accede a la web y escribe el nombre de la ciudad que deseas consultar para obtener los resultados del clima actual. Además, disfrutarás de un gráfico interactivo de Chart.js que muestra el pronóstico del tiempo para los próximos dos días.
 
+
+
+
 ## ¿Cómo usar? 🌍🔍
 
 1. Accede a la página web del DashBoard.
 2. Ingresa el nombre de la ciudad que deseas consultar en el campo de búsqueda.
 3. Presiona el botón "Consultar".
 4. ¡Listo! Obtendrás la información detallada del clima de la ciudad seleccionada, junto con un gráfico intuitivo que muestra el pronóstico para los próximos dos días.
+
+
 
 ## Diseño 🎨🚀
 
@@ -23,4 +28,5 @@ Esperamos que disfrutes usando el DashBoard y que te sea útil para obtener el p
 
 
 
-Gerardo Olivares 2023.
+
+ *Gerardo Olivares 2023.*
