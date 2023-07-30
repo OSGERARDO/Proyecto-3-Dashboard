@@ -7,7 +7,7 @@ import { crearGrafico } from "./chart.js"
 const consulta = async (event) => {
     event.preventDefault()
     if (inputText.value === ""){
-        Swal.fire('¡Ingresa una ciudad!')
+        Swal.fire('¡Ingresa una ciudad!') //mensaje de alerta persolizado
         return
     }
     

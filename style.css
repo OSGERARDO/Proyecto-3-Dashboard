@@ -144,5 +144,13 @@ canvas {
 
 
 
+.footer{
+  color:black;
+  padding: 5%;
+}
+
+
 /* Media query para hacer el responsive */
-@media (max-width: 600px) {}
+@media (max-width: 600px) {
+
+}
