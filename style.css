@@ -150,7 +150,15 @@ canvas {
 }
 
 
-/* Media query para hacer el responsive */
+
+
+
+
+/* Mobile phones and smaller */
 @media (max-width: 600px) {
 
+.main{
+display: flex;
+flex-direction: column;
+}
 }
